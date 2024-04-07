@@ -5,6 +5,14 @@ public class Automobile {
     private int year;
     private int mileage;
 
+    public Automobile() {
+        this.make = "";
+        this.model = "";
+        this.color = "";
+        this.year = 0;
+        this.mileage = 0;
+    }
+
     public Automobile(String make, String model, String color, int year, int mileage) {
         this.make = make;
         this.model = model;
